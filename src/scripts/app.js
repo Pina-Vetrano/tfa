@@ -32,8 +32,8 @@
     });
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.header__logo', {
       duration: 1.5,
-      opacity: 0,
-      delay: 0.3
+      rotation: 360,
+      delay: 0.003
     });
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image1", {
       x: -100,

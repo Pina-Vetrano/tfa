@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Space+Grotesk:wght@300&display=swap');
 
 body {
-  font-family: sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: #444;
@@ -18,9 +18,6 @@ body {
   padding: 0;
 }
 
-body {
-  font-family: 'Space Grotesk', sans-serif;
-}
 
 .container {
   overflow: hidden;
@@ -53,6 +50,7 @@ body {
   color: #FF0505;
   opacity: 56%;
   font-family: 'Hind Madurai', sans-serif;
+  font-size: 68px;
 }
 
 .intro {
@@ -135,12 +133,12 @@ body {
 }
 .button--record {
   background-color: #ff5f5f;
-  padding: 14px 40px 18px;
+  padding: 14px 12px 14px;
   border-radius: 10px;
   color: #fff;
   font-weight: 400;
   position: absolute;
-  bottom: 170px;
+  /* bottom: 37px; */
   cursor: pointer;
   top: inherit;
 }
@@ -201,7 +199,7 @@ body {
   }
 
   .image {
-    max-width: 28%;
+    max-width: 23%;
   }
 
   .image--introduction {
