@@ -35,39 +35,8 @@
       rotation: 360,
       delay: 0.003
     });
-    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image1", {
-      x: -100,
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: ".image1",
-        start: "center 90%",
-        end: "center 50%",
-        scrub: true
-      }
-    });
-    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image2", {
-      x: 100,
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: ".image2",
-        start: "center 90%",
-        end: "center 50%",
-        scrub: true
-      }
-    });
-    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image3", {
-      x: -100,
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: ".image3",
-        start: "center 90%",
-        end: "center 50%",
-        scrub: 0.5
-      }
-    });
+
+
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".explication1", {
       opacity: 0,
       duration: 1,
@@ -103,16 +72,6 @@
       duration: 3,
       scrollTrigger: {
         trigger: ".image4",
-        start: "center 90%",
-        end: "center 10%",
-        scrub: 0.5
-      }
-    });
-    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".description__texte", {
-      scale: 1.1,
-      duration: 3,
-      scrollTrigger: {
-        trigger: ".description__texte",
         start: "center 90%",
         end: "center 10%",
         scrub: 0.5
