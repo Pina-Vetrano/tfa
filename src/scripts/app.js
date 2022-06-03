@@ -14,11 +14,7 @@
     
     
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.registerPlugin(gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_1__["default"]);
-    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.introduction__texte', {
-      x: -100,
-      duration: 1,
-      opacity: 0
-    });
+
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.image--introduction', {
       x: 70,
       duration: 1,
@@ -32,8 +28,9 @@
     });
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.header__logo', {
       duration: 1.5,
-      rotation: 360,
-      delay: 0.003
+      rotation: 180,
+      delay: 0.003,
+      
     });
 
 

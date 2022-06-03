@@ -50,11 +50,11 @@ body {
   color: #FF0505;
   opacity: 56%;
   font-family: 'Hind Madurai', sans-serif;
-  font-size: 68px;
+  font-size: 50px;
 }
 
 .intro {
-  margin-top: 100px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -62,13 +62,13 @@ body {
 }
 
 .image {
-  max-width: 40%;
+  max-width: 93%;
 }
 
 .image--introduction {
-  position: absolute;
+  position: initial;
   opacity: 1;
-  right: 5px;
+  right: 70px;
 }
 
 .image--explication {
@@ -83,10 +83,11 @@ body {
 }
 
 .conclusion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+    padding-bottom: 61px;
 }
 
 .footer {
@@ -95,20 +96,20 @@ body {
 
 .section--footer {
   background: #FF0505;
-  opacity: 56%;
-  color: white;
-  -webkit-clip-path: polygon(0% 10vh, 100% 0%, 100% 100%, 0% calc(100% - 0vh));
-          clip-path: polygon(0% 10vh, 100% 0%, 100% 100%, 0% calc(100% - 0vh));
-  margin-top: -10vh;
-  padding: 80px 0;
+  clip-path: polygon(0% 0vh, 100% 0%, 100% 100%, 0% calc(100% - 0vh));
+  border-radius: 54px 62px 4px 2px;
+  padding-top: -15px;
+  padding-bottom: 32px;
+  padding-top: -9px;
 }
 
 .footer__elements {
-  margin-top: 120px;
+  margin-top: 48px;
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: center;
+  font-weight: 800;
 }
 
 .footer__element {
@@ -133,14 +134,15 @@ body {
 }
 .button--record {
   background-color: #ff5f5f;
-  padding: 14px 12px 14px;
+  padding: 7px 12px 14px;
   border-radius: 10px;
   color: #fff;
   font-weight: 400;
   position: absolute;
-  /* bottom: 37px; */
   cursor: pointer;
   top: inherit;
+  left: 61%;
+  bottom: 67px;
 }
 .description {
   background: #FF0505;
@@ -160,8 +162,9 @@ body {
 }
 
 .section--explication h2 {
-  margin-top: 100px;
-  margin-bottom: 25px;
+  margin-top: 86%;
+  margin-bottom: 26px;
+
 }
 
 .section--explication p {
@@ -175,6 +178,32 @@ body {
   color: #fff;
   margin-left: -16px;
 }
+
+.paragraph--uppercase{
+  font-weight: 600;
+  font-size: 25px;
+}
+.image--slideaside {
+  position: absolute;
+  opacity: 1;
+  right: -2%;
+  top: 40%;
+  max-width: 134%;
+}
+.images--fleche {
+  fill: #FF0505;
+  width: 85%;
+  box-shadow: azure;
+  border: 1rem solid #ff8787;
+  border-radius: 56%;
+  margin-top: 51px;
+  margin-left: 6px;
+  margin-bottom: 51px;
+}
+.header__logo {
+    width: 9em;
+  }
+
 @media (min-width: 1000px) {
   .section--main, .section--explication {
     margin: 100px;
@@ -333,3 +362,4 @@ input:focus + .slider {
 input:checked + .slider:before {
   transform: translateX(1.5em);
 }
+
