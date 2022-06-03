@@ -251,6 +251,7 @@ body {
   width: 100%;
   grid-column: 1/5;
 }
+
 .typo__element{
 
 list-style-type: "\25c9";
@@ -440,7 +441,7 @@ input:checked + .slider:before {
 }
 .section--main, .section--explication, .section--explication2, .section--explication3, .section--explication4, .section--conclusion{
   
-margin: 24px -37px 2px 74px;
+margin: 24px 1px 2px 74px;
 }
 .image--introduction {
   position: initial;
@@ -493,6 +494,7 @@ body::-webkit-scrollbar-thumb {
 }
 .imagephone--case-study{
   width: 100%;
-  grid-column: 1/5;
+  grid-column: 1/4;
 }
+
 }

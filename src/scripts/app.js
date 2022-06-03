@@ -64,6 +64,36 @@
         scrub: 0.5
       }
     });
+    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image1", {
+      scale: 1.1,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".image1",
+        start: "center 90%",
+        end: "center 10%",
+        scrub: 0.5
+      }
+    });
+    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image2", {
+      scale: 1.1,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".image2",
+        start: "center 90%",
+        end: "center 10%",
+        scrub: 0.5
+      }
+    });
+    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image3", {
+      scale: 1.1,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".image3",
+        start: "center 90%",
+        end: "center 10%",
+        scrub: 0.5
+      }
+    });
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from(".image4", {
       scale: 1.1,
       duration: 3,
