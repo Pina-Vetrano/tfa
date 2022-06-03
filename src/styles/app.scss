@@ -221,6 +221,41 @@ body {
 .footer__date{
   margin-left: 67%;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 24px;
+  padding-top: 60px;
+}
+.case-title{
+  margin-top: unset;
+  font-family: 'hind Madurai';
+  font-size: 45px;
+}
+.contenu {
+  grid-column: 2/-2;
+  margin-bottom: 22px;
+}
+.typo{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.typo__element{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagephone--case-study{
+  width: 100%;
+  grid-column: 1/5;
+}
+.typo__element{
+
+list-style-type: "\25c9";
+margin-left: 6px;
+} 
 @media (min-width: 1000px) {
   .section--main, .section--explication {
     margin-left: 100px;
@@ -413,5 +448,51 @@ margin: 24px -37px 2px 74px;
   right: 70px;
   padding-top: 10%;
   padding-bottom: 10%;
+}
+.case-tile{
+  grid-column: 1/5;
+}
+body::-webkit-scrollbar {
+  width: 20px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: white; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FF0505; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid white /* creates padding around scroll thumb */
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 24px;
+  margin: 0px 48px 0px 48px;
+  padding-top: 60px;
+}
+.case-title{
+  margin-top: unset;
+  font-family: 'hind Madurai';
+  font-size: 45px;
+}
+.contenu {
+  grid-column: 2/-2;
+  margin-bottom: 22px;
+}
+.typo{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.typo__element{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagephone--case-study{
+  width: 100%;
+  grid-column: 1/5;
 }
 }
