@@ -8933,3 +8933,7 @@
     /******/ })()
     ;
     //# sourceMappingURL=app.js.map
+    //Date//
+let annee = new Date().getFullYear();
+let date = document.querySelector(".date");
+date.innerHTML = annee;
