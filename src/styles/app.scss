@@ -6,7 +6,7 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #444;
+  color: #000000;
 }
 
 .title {
@@ -150,6 +150,19 @@ body {
   left: 61%;
   bottom: 67px;
 }
+.button--record-case {
+  background-color: #ff5f5f;
+  padding: 7px 12px 14px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 400;
+  position: inherit;
+  cursor: pointer;
+  top: inherit;
+  left: 61%;
+  bottom: 67px;
+}
+
 .description {
   background: #FF0505;
   opacity: 56%;
@@ -251,12 +264,12 @@ body {
   width: 100%;
   grid-column: 1/5;
 }
-
-.typo__element{
-
-list-style-type: "\25c9";
-margin-left: 6px;
-} 
+.title--small{
+  font-size: 25px;
+  grid-column: 1/-2;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
 @media (min-width: 1000px) {
   .section--main, .section--explication {
     margin-left: 100px;
@@ -302,6 +315,7 @@ margin-left: 6px;
     margin-top: 50px;
     display: flex;
     justify-content: start;
+    
   }
 
   .button-download img {
@@ -431,24 +445,26 @@ input:checked + .slider:before {
 .image--slideaside {
   position: absolute;
   opacity: 1;
-  right: 1%;
+  /* right: -61%; */
   left: 0%;
-  top: 240%;
-  max-width: 52%;
+  top: 248%;
+  max-width: 28%;
+  z-index: 1;
 }
 .imagephone {
-  max-width: 33%;
+  max-width: 25%;
 }
 .section--main, .section--explication, .section--explication2, .section--explication3, .section--explication4, .section--conclusion{
   
 margin: 24px 1px 2px 74px;
 }
-.image--introduction {
+.image--introduction, .image--explication {
   position: initial;
   opacity: 1;
   right: 70px;
   padding-top: 10%;
   padding-bottom: 10%;
+  margin-left: 35%;
 }
 .case-tile{
   grid-column: 1/5;
@@ -472,6 +488,7 @@ body::-webkit-scrollbar-thumb {
   column-gap: 24px;
   margin: 0px 48px 0px 48px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .case-title{
   margin-top: unset;
@@ -496,5 +513,20 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   grid-column: 1/4;
 }
-
+.imagephone--veille{
+  width: 55%;
+  grid-column: 1/4;
+}
+.content{
+  grid-column: 6/7;
+}
+.contenu-right{
+  grid-column: 3/5;
+}
+a:hover{
+    background-color: #ff8787 ;
+  }
+a:visited{
+  text-decoration-style: none;
+}
 }
