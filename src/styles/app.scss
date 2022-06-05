@@ -9,9 +9,6 @@ body {
   color: #000000;
 }
 
-.title {
-  color: #FF0505;
-}
 
 * {
   margin: 0;
@@ -34,6 +31,10 @@ body {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
+}
+//Title//
+.title {
+  color: #FF0505;
 }
 
 .title {
@@ -61,7 +62,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
 }
-
+//IMAGE//
 .image {
   max-width: 93%;
 }
@@ -82,7 +83,7 @@ body {
   padding-top: 10%;
   padding-bottom: 10%;
 }
-
+// SECTION //
 .explication {
   display: flex;
   flex-direction: column;
@@ -90,12 +91,41 @@ body {
 }
 
 .conclusion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 38px;
-    padding-bottom: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 38px;
+  padding-bottom: 61px;
 }
+
+// UI COLOR START //
+.couleur{
+    display: flex;
+  align-content: space-between;
+}
+.couleur__el {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #0000002a;
+}
+.couleur__el--01 {
+  background-color: #000000;
+}
+.couleur__el--02 {
+  background-color: #FF0505;
+}
+.couleur__el--03 {
+  background-color:#ff5f5f;
+}
+.couleur__el--04 {
+  background-color: #ff8787;
+}
+.couleur__el--05 {
+  background-color: #fff;
+}
+
+// UI COLOR END //
 // LINK START//
 a {
   text-decoration: none;
@@ -104,8 +134,15 @@ a {
 }
 .content--link{
   padding-bottom: 25px;
-
+  list-style: none;
 }
+//
+//.link--video {
+ // display: block;
+ // margin-top: 2.827rem;
+ // text-align: center;
+//}
+//
 // LINK END//
 
 // FOOTER START//
@@ -125,6 +162,7 @@ a {
   justify-content: space-around;
   list-style-type: none;
   text-decoration: none;
+  gap: 1rem;
 }
 
 .footer__elements {
@@ -231,9 +269,9 @@ a {
 .image--slideaside {
   position: absolute;
   opacity: 1;
-  right: 1%;
+  right: 4%;
   top: 40%;
-  max-width: 134%;
+  max-width: 100%;
 }
 .images--fleche {
   fill: #FF0505;
@@ -245,6 +283,7 @@ a {
   margin-left: 6px;
   margin-bottom: 51px;
 }
+
 .header__logo {
     width: 9em;
   }
@@ -585,10 +624,17 @@ body::-webkit-scrollbar-thumb {
   grid-column: 3/5;
 }
 a:hover{
-    background-color: #ff8787 ;
+    background-color: #ffa0a065 ;
   }
 a:visited{
   text-decoration-style: none;
 }
-
+.lo{
+  position: fixed;
+  font-size:100px;
+  left: var(--x);
+  top: var(--y);
+  transform: translate(-50%,-50%);
+  
+}
 }

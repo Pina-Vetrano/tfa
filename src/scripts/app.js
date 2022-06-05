@@ -8967,3 +8967,8 @@
 let annee = new Date().getFullYear();
 let date = document.querySelector(".date");
 date.innerHTML = annee;
+
+window.addEventListener('mousemove', event =>{
+  document.documentElement.style.setProperty('--x', event.clientX + 'px');
+  document.documentElement.style.setProperty('--y', event.clientY + 'px');
+});
