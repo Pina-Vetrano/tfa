@@ -96,34 +96,60 @@ body {
     margin-top: 38px;
     padding-bottom: 61px;
 }
+// LINK START//
+a {
+  text-decoration: none;
+  color: #ff5f5f;
+  font-weight: 800;
+}
+.content--link{
+  padding-bottom: 25px;
 
+}
+// LINK END//
 
-.section--footer {
-  background: #FF0505;
-  clip-path: polygon(0% 0vh, 100% 0%, 100% 100%, 0% calc(100% - 0vh));
-  border-radius: 54px 62px 4px 2px;
-  padding-top: -15px;
-  padding-bottom: 2px;
-  padding-top: -9px;
+// FOOTER START//
+
+.footer {
+  margin-top: 15.981rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #ff5f5f;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .footer__elements {
-  margin-top: 48px;
-  list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-weight: 800;
+  flex-direction: column;
+  gap: 2.827rem;
 }
 
-.footer__element {
-  text-decoration: none;
-  color: white;
-  margin: 10px;
+.footer__copyright {
+  display: flex;
+  justify-content: center;
 }
+
+.footer__img {
+  border-radius: 0;
+  box-shadow: none;
+  transform: translateY(50px);
+  width: 70%;
+}
+
 .footer__date{
   margin-left: 2px;
 }
+
+// FOOTER END//
 .intro p {
   margin-top: 20px;
   max-width: 22ch;
@@ -134,8 +160,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-
-.button-download img {
+.button-download--dwt{
   max-width: 30%;
 }
 .button--record {
@@ -153,14 +178,15 @@ body {
 .button--record-case {
   background-color: #ff5f5f;
   padding: 7px 12px 14px;
+  margin-top: 30px;
   border-radius: 10px;
   color: #fff;
   font-weight: 400;
   position: inherit;
   cursor: pointer;
-  top: inherit;
   left: 61%;
   bottom: 67px;
+  text-decoration: none;
 }
 
 .description {
@@ -270,6 +296,41 @@ body {
   padding-bottom: 25px;
   padding-top: 25px;
 }
+.article__element{
+  text-decoration: none;
+  list-style: none;
+  margin-top: 21px;
+}
+.article__element-li{
+  margin-bottom: 25px;
+}
+
+.footer {
+  padding-bottom: 18px;
+  margin-top: 87px;
+}
+
+.footer__el {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.footer__nav--el {
+  margin-top: 18px;
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+
+.footer__el--img {
+  width: 100px;
+  margin: auto;
+  padding-top: 22px
+}
+
 @media (min-width: 1000px) {
   .section--main, .section--explication {
     margin-left: 100px;
@@ -529,4 +590,5 @@ a:hover{
 a:visited{
   text-decoration-style: none;
 }
+
 }
