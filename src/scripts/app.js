@@ -8972,3 +8972,4 @@ window.addEventListener('mousemove', event =>{
   document.documentElement.style.setProperty('--x', event.clientX + 'px');
   document.documentElement.style.setProperty('--y', event.clientY + 'px');
 });
+
