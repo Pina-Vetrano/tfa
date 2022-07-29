@@ -45,8 +45,3 @@ mix
       ]
     }
   });
-mix.webpackConfig({
-    stats: {
-        children: true,
-    },
-});
