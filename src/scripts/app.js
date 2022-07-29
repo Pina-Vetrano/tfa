@@ -28,7 +28,6 @@
     });
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.header__logo', {
       duration: 1.5,
-      rotation: 180,
       delay: 0.003,
       
     });
