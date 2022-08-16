@@ -13,7 +13,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
 }
 
 
@@ -21,7 +21,38 @@ body {
   overflow: hidden;
 }
 
+.music-container{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 107%;
+}
+.music-container .bloc{
+  display: table-cell;
+  align-items: center;
+  background: #222222;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem #0000;
+  overflow: hidden;
+  padding-bottom: 0%;
+  margin-right: 3rem;
+}
+.music-container .bloc .image{
+  border-radius: 15%;
+  height: 100%;
+}
+.music-container .bloc .image img{
+  height:100%;
+  border-radius: 1rem;
+}
 
+.music-container .bloc .music {
+  width: 100%;
+  padding-bottom: 5rem;
+}
+.music-container .bloc .music audio::-webkit-media-controls-enclosure {
+  background:none;
+}
 .section--main, .section--explication, .section--explication2,.section--explication3, .section--explication4, .section--conclusion {
   background-image: url(../assets/images/mobile_img.png);
   background-size: cover;
@@ -30,6 +61,10 @@ body {
 .section--main, .section--explication, .section--explication2,.section--explication3, .section--explication4, .section--conclusion {
   margin-left: 23px;
   letter-spacing: 4px;
+}
+audio {
+  background-color: rgb(219, 219, 219);
+  border-radius: 1rem;
 }
 .header {
   margin: -11%;
@@ -277,6 +312,8 @@ a {
 .intro p {
   margin-top: 65%;
   max-width: 50ch;
+  font-size: 26px;
+  font-family: 'objektiv-mk3', sans-serif;
 }
 // BUTTON START //
 .button-download {
