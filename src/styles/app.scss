@@ -3,16 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Space+Grotesk:wght@300&display=swap');
 
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "bebas-neue", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  background-color: #1D1D1D;
+  background-color: #141414;
 }
 
 
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 
@@ -22,20 +23,30 @@ body {
 
 
 .section--main, .section--explication, .section--explication2,.section--explication3, .section--explication4, .section--conclusion {
-  margin: 24px 24px 24px 24px;
+  background-image: url(../assets/images/mobile_img.png);
+  background-size: cover;
+  opacity: 2;
 }
-
+.section--main, .section--explication, .section--explication2,.section--explication3, .section--explication4, .section--conclusion {
+  margin-left: 23px;
+  letter-spacing: 4px;
+}
 .header {
-  margin: 24px;
+  margin: -11%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
+  
+}
+.box {
+  position: absolute; 
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
 }
 //TITLE START//
 
 .title--second {
-  font-family: "bebas-neue", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
@@ -43,43 +54,45 @@ body {
   margin-left: 25px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  padding-top: 72px;
-  max-width: 14ch;
+  padding-top: 45%;
+  max-width: 30ch;
+  letter-spacing: 4px;
 }
 .title--troisieme {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 44px;
   color: #D8D8D8;
-  margin-left: 25px;
-  padding-top: 77px;
+  margin-left: 23px;
+  margin-top: 80%;
+  letter-spacing: 4px;
+  max-width: 38ch;
 }
 .title--intro {
   color: #ffffff;
-  font-family: 'objektiv-mk1', sans-serif;
+  font-family: "objektiv-mk1", sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 33%;
   /* width: 30px; */
   position: absolute;
-  top: -17%;
-  left: 84px;
+  top: 1%;
+  /* left: 84px; */
+  margin-left: 2ch;
 }
 //TITLE END//
 .intro{
-  display: flex;
   justify-content: space-between;
   flex-direction: row;
   position: inherit;
   align-items: flex-start;
 }
 .intro__head{
-  
-  background-image: url(../assets/images/headerbkgnd.jpg);
-  background-size: cover;
+
+  padding-top: 41%;
+  margin-top: 8%;
 }
 .carousel {
   position: relative;
@@ -127,7 +140,7 @@ body {
   height: 45px;
   width: 45px;
   position: absolute;
-  top: 1px;
+  top: 10px;
   left: 16px;
   cursor: pointer;
 }
@@ -160,6 +173,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #f0f8ff;
 }
 
 .conclusion {
@@ -261,8 +275,8 @@ a {
 
 // FOOTER END//
 .intro p {
-  margin-top: 20px;
-  max-width: 22ch;
+  margin-top: 65%;
+  max-width: 50ch;
 }
 // BUTTON START //
 .button-download {
@@ -274,9 +288,13 @@ a {
   max-width: 30%;
 }
 .button--record {
-  background-color: #ff5f5f;
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 7px 12px 14px;
-  border-radius: 10px;
   color: #fff;
   font-weight: 400;
   position: absolute;
@@ -286,17 +304,16 @@ a {
   bottom: 67px;
 }
 .button--record-case {
-  background-color: #ff5f5f;
+  background-color: #524848;
   padding: 7px 12px 14px;
-  margin-top: 30px;
-  border-radius: 10px;
+  /* margin-top: 30px; */
   color: #fff;
   font-weight: 400;
-  position: inherit;
+  position: absolute;
   cursor: pointer;
-  left: 61%;
-  bottom: 67px;
+  left: 7%;
   text-decoration: none;
+  border-radius: 6px;
 }
 // BUTTON END //
 
@@ -312,7 +329,7 @@ a {
 
 // SECTION START //
 .section--explication h2 {
-  margin-top: 86%;
+  margin-top: 17%;
   margin-bottom: 26px;
 }
 
@@ -332,6 +349,7 @@ a {
 .paragraph--uppercase{
   font-weight: 600;
   font-size: 25px;
+  font-family:'objektiv-mk3', sans-serif;
 }
 
 .image--slideaside {
@@ -375,7 +393,6 @@ a {
 }
 .case-title{
   margin-top: unset;
-  font-family: 'hind Madurai';
   font-size: 45px;
 }
 .contenu {
@@ -556,9 +573,7 @@ width: 3.5em;
 height: 2em;
 }
 .intro__head{
-  
-  background-image: url(../assets/images/headerbkgnd.jpg);
-  background-size: cover;
+
   padding-top: 9em;
   padding-bottom: 23em;
   margin-top: -13%;
@@ -654,7 +669,6 @@ body::-webkit-scrollbar-thumb {
 }
 .case-title{
   margin-top: unset;
-  font-family: 'hind Madurai';
   font-size: 45px;
 }
 .contenu {
