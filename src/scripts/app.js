@@ -21,11 +21,18 @@
       opacity: 0,
       delay: 0.25
     });
-    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.button-download', {
+    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.roundrectangle3', {
       duration: 0.5,
       opacity: 0,
       delay: 1.5
     });
+    gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.roundrectangle4', {
+      duration: 0.5,
+      opacity: 0,
+      delay: 1.5
+    });
+    
+    
     gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.from('.header__logo', {
       duration: 1.5,
       delay: 0.003,
