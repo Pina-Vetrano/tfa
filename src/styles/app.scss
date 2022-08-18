@@ -162,13 +162,13 @@ background: url(../assets/images/waveround1.png);
 
 .wavyround2 {
   
-position: fixed;
-width: 213px;
-height: 103.11px;
-left: 0px;
-top: 667.11px;
-z-index: -2;
-background: url(../assets/images/waveround2.png);
+  position: fixed;
+  width: 170px;
+  height: 102.11000000000001px;
+  left: 0px;
+  top: 777.11px;
+  z-index: -2;
+  background: url(../assets/images/waveround2.png);
 }
 // MOTIF FIN // 
 
@@ -309,12 +309,13 @@ background: url(../assets/images/waveround2.png);
   /* padding-bottom: 74%; */
   /* position: inherit; */
   /* display: contents; */
-  height: 45px;
-  width: 45px;
+  height: 11%;
+  width: 19%;
   position: absolute;
   top: 10px;
   left: 16px;
   cursor: pointer;
+  margin-left: 1%;
 }
 //IMAGE START//
 .image {
@@ -326,9 +327,9 @@ background: url(../assets/images/waveround2.png);
 .image--introduction {
   position: initial;
   opacity: 1;
-  right: 70px;
-  padding-top: 40%;
-  padding-bottom: 40%;
+  padding-top: 55rem;
+  padding-right: 21%;
+  margin-left: 21%;
 }
 
 .image--explication {
@@ -825,13 +826,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: white; /* color of the tracking area */
+  background: rgb(97, 97, 97); /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #FF0505; /* color of the scroll thumb */
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 3px solid white /* creates padding around scroll thumb */
+  border-radius: 5px; /* roundness of the scroll thumb */
+  border: 3px solid rgb(232, 230, 230) /* creates padding around scroll thumb */
 }
 .grid{
   display: grid;
