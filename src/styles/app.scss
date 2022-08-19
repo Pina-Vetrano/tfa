@@ -80,6 +80,9 @@ audio {
   
 }
 // MOTIF BACKGROUND MOBILE // 
+.rounddecor{
+  padding-left: 15%;
+}
 .roundrectangle1{
   position: fixed;
   width: 339.74px;
@@ -161,12 +164,11 @@ background: url(../assets/images/waveround1.png);
 }
 
 .wavyround2 {
-  
   position: fixed;
-  width: 170px;
-  height: 102.11000000000001px;
+  width: 191px;
+  height: 102.11px;
   left: 0px;
-  top: 777.11px;
+  top: 644.11px;
   z-index: -2;
   background: url(../assets/images/waveround2.png);
 }
@@ -186,7 +188,7 @@ background: url(../assets/images/waveround1.png);
   font-style: normal;
   font-size: 32px;
   color: white;
-  margin-left: 25px;
+  margin-left: 39px;
   text-transform: uppercase;
   letter-spacing: 4px;
   padding-top: 6%;
@@ -204,6 +206,7 @@ background: url(../assets/images/waveround1.png);
   margin-top: 87%;
   letter-spacing: 4px;
   max-width: 38ch;
+  font-family: "objektiv-mk1", sans-serif;
 }
 .title--intro {
   color: #ffffff;
@@ -218,11 +221,27 @@ background: url(../assets/images/waveround1.png);
   /* left: 84px; */
   margin-left: 2ch;
 }
-.title--
+.title-head {
+  padding-bottom: 86%;
+}
+
+.title-music {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: white;
+  margin-left: 39px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-top: 55%;
+  max-width: 30ch;
+  letter-spacing: 4px;
+}
 //TITLE END//
 //TEMOIGNAGE START//
 .temoignage{
-  background-color: var(--c-primary);
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
   padding: 36px;
   border-radius: 15px;
   max-width: 470px;
@@ -309,7 +328,6 @@ background: url(../assets/images/waveround1.png);
   /* padding-bottom: 74%; */
   /* position: inherit; */
   /* display: contents; */
-  height: 11%;
   width: 19%;
   position: absolute;
   top: 10px;
@@ -322,14 +340,13 @@ background: url(../assets/images/waveround1.png);
   max-width: 93%;
 }
 .imagephone {
-  max-width: 93%;
+  max-width: 81%;
 }
 .image--introduction {
   position: initial;
   opacity: 1;
-  padding-top: 55rem;
-  padding-right: 21%;
-  margin-left: 21%;
+  padding-top: 20rem;
+  padding-left: 19%;
 }
 
 .image--explication {
@@ -573,6 +590,11 @@ a {
 .contenu {
   grid-column: 2/-2;
   margin-bottom: 22px;
+  margin-top: 31%;
+  margin-left: 23px;
+  margin-right: 21px;
+  letter-spacing: 11px;
+  font-family: 'objektiv-mk1';
 }
 .typo{
   max-width: 700px;

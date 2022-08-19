@@ -28,4 +28,8 @@
     "sass": "^1.49.0",
     "sass-loader": "^12.4.0"
   }
+  ,
+  "dependencies": {
+    "gsap": "^3.10.4"
+  }
 }

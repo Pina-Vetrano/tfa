@@ -19,16 +19,6 @@ gsap.from('.image--introduction', {
   opacity: 0,
   delay: 0.25
 });
-gsap.from('.roundrectangle3', {
-  duration: 0.5,
-  opacity: 0,
-  delay: 1.5
-});
-gsap.from('.roundrectangle4', {
-  duration: 0.5,
-  opacity: 0,
-  delay: 1.5
-});
 
 
 
@@ -48,7 +38,7 @@ gsap.from(".explication2", {
   duration: 1,
   scrollTrigger: {
     trigger: ".explication2",
-    start: "center 90%",
+    start: "center 100%",
     end: "center 50%",
     scrub: 0.5
   }
