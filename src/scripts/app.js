@@ -53,13 +53,25 @@ gsap.from(".explication3", {
     scrub: 0.5
   }
 });
+var tl2 = gsap__WEBPACK_IMPORTED_MODULE_0__["default"].timeline({
+  defaults: {
+    duration: 3
+  }
+});
+tl2.from('.music-container', {
+  x: -1000,
+  duration: 10,
+  stagger: 0.5,
+  start: 'top bottom'
+})
+
 gsap.from(".imagephone", {
   scale: 1.1,
   duration: 3,
   scrollTrigger: {
     trigger: ".imagephone",
-    start: "center 90%",
-    end: "center 10%",
+    start: "center 10%",
+    end: "center 90%",
     scrub: 0.5
   }
 });
