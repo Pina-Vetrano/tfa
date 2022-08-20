@@ -190,13 +190,13 @@ background: url(../assets/images/waveround1.png);
   font-style: normal;
   font-size: 32px;
   color: white;
-  margin-left: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
   text-transform: uppercase;
   letter-spacing: 4px;
   padding-top: 6%;
   max-width: 30ch;
   letter-spacing: 4px;
-  margin-bottom: 17%;
 }
 
 .title--troisieme {
@@ -285,13 +285,10 @@ background: url(../assets/images/waveround1.png);
 
 .review__quote {
   margin-left: -25px;
-  min-width: 32ch;
-  padding-left: 37px;
+  min-width: 13ch;
+  padding-left: 38px;
   padding-right: 10%;
   padding-top: 2rem;
-  font-family: "objektiv-mk3";
-  font-size: 20px;
-  font-weight: 800;
 }
 
 .intro{
@@ -635,7 +632,6 @@ a {
   margin-top: unset;
   font-size: 45px;
 }
-//CONTENUS
 .contenu--review {
   grid-column: 2/-2;
   margin-bottom: 22px;
@@ -645,11 +641,6 @@ a {
   font-family: 'objektiv-mk3';
   font-weight: 700;
   padding-left: 1rem;
-}
-.contenu--pq {
-  padding-right: 1rem;
-  line-height: 2.3;
-  font-size: 20px;
 }
 .contenu--ftr {
   grid-column: 2/-2;

@@ -62,7 +62,6 @@ tl2.from('.music-container', {
   x: -1000,
   duration: 10,
   stagger: 0.5,
-  start: 'top bottom'
 })
 
 gsap.from(".imagephone", {
