@@ -74,11 +74,11 @@ gsap.from(".imagephone", {
     scrub: 0.5
   }
 });
-gsap.from(".temoignage", {
+gsap.from(".temoignages", {
   scale: 1.1,
   duration: 3,
   scrollTrigger: {
-    trigger: ".temoignage",
+    trigger: ".temoignages",
     start: "center 90%",
     end: "center 10%",
     scrub: 0.5

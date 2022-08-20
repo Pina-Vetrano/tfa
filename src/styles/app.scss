@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
 }
 
-
+// CONTAINER START // 
 .container {
   overflow: hidden;
 }
@@ -54,18 +54,45 @@ body {
 .music-container .bloc .music audio::-webkit-media-controls-enclosure {
   background:none;
 }
+
+// CONTAINER END // 
+// CONTENU START // 
+.contenu--review {
+  margin-right: 21px;
+  letter-spacing: 11px;
+  font-family: 'objektiv-mk3';
+  font-weight: 700;
+  padding-left: 1rem;
+}
+.contenu-pck {
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+.contenu--ftr {
+  grid-column: 2/-2;
+  margin-right: 46px;
+  letter-spacing: 11px;
+  font-family: "objektiv-mk3";
+  font-weight: 700;
+  padding-left: 4rem;
+
+}
+.contenu--actn {
+  margin-left: 23px;
+  margin-right: 21px;
+  letter-spacing: 8px;
+  font-family: "objektiv-mk3";
+  font-size: 25px;
+}
+// CONTENU END //
+
 .section--explication3, .conclusion {
   background-image: url(../assets/images/mobile_img.png);
   background-size: contain;
   opacity: 2;
   padding-top: 25%;
 }
-.temoignage {
-  background-image: url(../assets/images/mobile_img.png);
-  background-size: contain;
-  opacity: 2;
-  
-}
+
 .section--main, .section--explication, .section--explication2,.section--explication3, .section--explication4, .section--conclusion {
   margin-left: 23px;
   letter-spacing: 4px;
@@ -245,7 +272,7 @@ background: url(../assets/images/waveround1.png);
 }
 //TITLE END//
 //TEMOIGNAGE START//
-.temoignage{
+.temoignages{
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   padding: 36px;
@@ -255,14 +282,19 @@ background: url(../assets/images/waveround1.png);
   margin-right: auto;
   height: 100%;
   font-size: 16px;
-  background: rgba( 255, 255, 255, 0.1 );
-  box-shadow: 0 8px 32px 0 rgba(48, 51, 57, 0.37);
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: rgb(5 9 15 / 70%);
+    /* box-shadow: 0 8px 32px 0 rgb(48 51 57 / 37%); */  
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-
+.temoignages {
+  background-image: url(../assets/images/mobile_img.png);
+  background-size: contain;
+  opacity: 2;
+  
+}
 .temoignage__img--austin {
   background-image: url(../assets/images/austin@2x.png);
   border-radius: 15%;
@@ -290,7 +322,7 @@ background: url(../assets/images/waveround1.png);
   padding-right: 10%;
   padding-top: 2rem;
 }
-
+// Temoignage END //
 .intro{
   justify-content: space-between;
   flex-direction: row;
@@ -631,37 +663,6 @@ a {
 .case-title{
   margin-top: unset;
   font-size: 45px;
-}
-.contenu--review {
-  grid-column: 2/-2;
-  margin-bottom: 22px;
-  margin-top: 31%;
-  margin-right: 21px;
-  letter-spacing: 11px;
-  font-family: 'objektiv-mk3';
-  font-weight: 700;
-  padding-left: 1rem;
-}
-.contenu--ftr {
-  grid-column: 2/-2;
-  margin-bottom: 199px;
-  margin-top: 33%;
-  margin-right: 46px;
-  letter-spacing: 11px;
-  font-family: "objektiv-mk3";
-  font-weight: 700;
-  padding-left: 4rem;
-  padding-top: 25%;
-}
-.contenu--actn {
-  grid-column: 2/-2;
-  margin-bottom: 22px;
-  margin-top: 31%;
-  margin-left: 23px;
-  margin-right: 21px;
-  letter-spacing: 8px;
-  font-family: "objektiv-mk3";
-  font-size: 25px;
 }
 
 .typo{
