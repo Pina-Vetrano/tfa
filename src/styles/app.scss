@@ -95,7 +95,16 @@ body {
   letter-spacing: 8px;
   font-size: 25px;
 }
-
+.contenu--p{
+  margin-left: 23px;
+  margin-right: 21px;
+  letter-spacing: 2px;
+  line-height: 2;
+  font-size: 25px;
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background-color: #1d1d1d29;
+}
 // Contenu END //
 // Article START //
 
@@ -500,7 +509,15 @@ audio {
   position: absolute;
   margin-left: 2ch;
 }
-
+.title--intro-case {
+  color: var(--color-white);
+  font-family: "objektiv-mk1", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 2ch;
+}
 .title--second {
   font-weight: 400;
   font-style: normal;
@@ -513,7 +530,18 @@ audio {
   letter-spacing: 4px;
   max-width: 30ch;
 }
-
+.title--second-case {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  font-family: "bebas neue";
+  color: var(--color-white);
+  margin-left: 1em;
+  margin-right: 1em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  max-width: 30ch;
+}
 .title--troisieme {
   font-style: normal;
   font-weight: 700;
@@ -525,10 +553,22 @@ audio {
   letter-spacing: 4px;
   max-width: 38ch;
   font-weight: 500;
+  font-style: italic;
   font-family: "objektiv-mk3", sans-serif;
 }
 
-
+.title--troisieme-case {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 44px;
+  color: var(--color-white);
+  margin-left: 23px;
+  letter-spacing: 4px;
+  max-width: 38ch;
+  font-weight: 500;
+  font-family: "objektiv-mk3", sans-serif;
+}
 
 .title-head {
   padding-bottom: 86%;
@@ -926,11 +966,6 @@ a {
 
 .footer__date {
   margin-left: 67%;
-}
-
-.case-title {
-  margin-top: unset;
-  font-size: 45px;
 }
 
 .typo {
