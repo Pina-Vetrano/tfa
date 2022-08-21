@@ -117,11 +117,6 @@ body {
   box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 40%);
 }
 
-.article__link--bgblack {
-  background-color: v;
-  color: #FeFeFe;
-}
-
 /* 1er faux slider */
 [data-slide=title1-el1] .prototype__img--t1e1 {
   display: block;
@@ -831,7 +826,9 @@ a {
   left: 61%;
   bottom: 67px;
 }
-
+.rounded{
+    border-radius: 0.375rem;
+}
 .button--record-case {
   border: 2px solid #8f7f7f;
   background-color: #121212;
@@ -931,13 +928,6 @@ a {
   margin-left: 67%;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  column-gap: 24px;
-  padding-top: 60px;
-}
-
 .case-title {
   margin-top: unset;
   font-size: 45px;
@@ -1025,7 +1015,7 @@ a {
   margin: 70px auto;
   padding: 20px;
   background: #fff;
-  border-radius: 30px;
+  border-radius: 15px;
   width: 300px;
   position: relative;
 }
@@ -1299,11 +1289,13 @@ a {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 24px;
-    margin: 0px 48px 0px 48px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-gap: 18px;
+    padding-left: 18px;
+    margin: auto;
+    padding-left: 18px;
+    padding-right: 18px;
+    grid-template-rows: repeat(2, minmax(36px, auto));
   }
 
   .case-title {
@@ -1353,19 +1345,6 @@ a {
 
   a:hover {
     background-color: #ffa0a065;
-  }
-
-  a:visited {
-    text-decoration-style: none;
-  }
-
-  .lo {
-    position: fixed;
-    font-size: 100px;
-    left: var(--x);
-    top: var(--y);
-    transform: translate(-50%, -50%);
-
   }
 
   .image--slideaside {
