@@ -1,23 +1,23 @@
 @import 'utils/variables';
 @import 'components/type';
-@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Space+Grotesk:wght@300&display=swap');
 
 :root {
   --color-yellow: #FDD602;
   --color-orange: #FF9D29;
   --color-purple: #CE00FF;
   --color-pink: #FF5B94;
-  --background-color: #141411 ;
+  --background-color: #141411;
   --text-whitebg: #333;
   --color-white: #f0f8ff;
   --background-ftr: #3e00ff1f;
   --logo-color: #FF0505;
 }
+
 body {
   font-family: "objektiv-mk3", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  background-color:  var(--background-color);
+  background-color: var(--background-color);
   color: #D8D8D8;
 }
 
@@ -38,28 +38,34 @@ body {
   margin-bottom: 12em;
   margin-top: 12em;
 }
+
 .tinyspace {
   margin-bottom: 3em;
   margin-top: 2em;
 }
+
 .spacedecor {
   margin-left: 11%;
   margin-right: 11%;
   padding-top: 7%;
   line-height: 38px;
 }
+
 .spacedecor-srch {
   margin-bottom: 1rem;
   margin-left: 13%;
   margin-right: 11%;
   padding-top: 6rem;
 }
-.space-title{
+
+.space-title {
   top: 19%;
 }
-.button-space{
+
+.button-space {
   top: 27%;
 }
+
 // Space END //
 // Contenu START // 
 .contenu--review {
@@ -73,6 +79,7 @@ body {
   min-width: 12ch;
   line-height: 40px;
 }
+
 .contenu--ftr {
   grid-column: 2/-2;
   margin-right: 46px;
@@ -98,16 +105,16 @@ body {
 
 .article__link {
   display: block;
-    position: relative;
-    text-align: left;
-    border-radius: 15px;
-    padding-left: 4%;
-    padding-bottom: 2%;
-    /* align-content: center; */
-    background-color: rgba(255, 255, 255, 0.19);
-    padding-right: 1px;
-    color: #fff;
-    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 40%);
+  position: relative;
+  text-align: left;
+  border-radius: 15px;
+  padding-left: 4%;
+  padding-bottom: 2%;
+  /* align-content: center; */
+  background-color: rgba(255, 255, 255, 0.19);
+  padding-right: 1px;
+  color: #fff;
+  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 40%);
 }
 
 .article__link--bgblack {
@@ -474,7 +481,7 @@ audio {
   width: 191px;
   height: 102.11px;
   left: 0px;
-  top: 644.11px;
+  bottom: 0px;
   z-index: -2;
   background: url(../assets/images/waveround2.png);
 }
@@ -498,6 +505,7 @@ audio {
   position: absolute;
   margin-left: 2ch;
 }
+
 .title--second {
   font-weight: 400;
   font-style: normal;
@@ -550,6 +558,8 @@ audio {
 }
 
 //TITLE END//
+
+
 //TEMOIGNAGE START//
 .temoignages {
   -webkit-backdrop-filter: blur(22px);
@@ -645,6 +655,14 @@ audio {
   padding-left: 19%;
 }
 
+.image--introduction-phone {
+  padding-left: 0%;
+  position: initial;
+  opacity: 1;
+  padding-top: 20rem;
+  margin-left: 1em;
+}
+
 .image--explication {
   max-width: 80%;
   z-index: 2;
@@ -666,8 +684,6 @@ audio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 38px;
-  padding-bottom: 61px;
 }
 
 // UI COLOR START //
@@ -735,7 +751,6 @@ a {
   align-items: center;
   font-size: 1rem;
   color: var(--color-white);
-  font-family: "bebas neue", sans-serif;
 }
 
 .footer__list {
@@ -833,17 +848,32 @@ a {
 }
 
 .button--record-case-footer {
-  background-color: rgba(183, 190, 238, 0.1098039216);
+  border: 2px solid #8f7f7f;
+  background-color: #121212;
+  border-image: linear-gradient(to right, darkblue, darkorchid, aliceblue, orange, pink) 1;
   padding: 7px 12px 14px;
   color: #fff;
-  font-weight: 400;
   position: absolute;
   cursor: pointer;
-  left: 33%;
-  margin-left: -5%;
+  left: 7%;
   text-decoration: none;
   border-radius: 6px;
-  margin-top: 11%;
+  margin-top: 0;
+}
+
+.button--record-credits {
+  border: 2px solid #8f7f7f;
+  background-color: #121212;
+  border-image: linear-gradient(to right, darkblue, darkorchid, aliceblue, orange, pink) 1;
+  padding: 7px 12px 14px;
+  color: #fff;
+  position: absolute;
+  cursor: pointer;
+  left: 7%;
+  bottom: 1vh;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 0;
 }
 
 // BUTTON END //
@@ -971,6 +1001,68 @@ a {
   width: 100px;
   margin: auto;
   padding-top: 22px
+}
+
+// CREDITS PART //
+.abovepop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.abovepop:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 30px;
+  width: 300px;
+  position: relative;
+}
+
+.title__second--popup {
+  text-align: left;
+  margin: 2.827rem 0;
+  color: var(--text-whitebg);
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #121212;
+}
+
+.popup .content {
+  max-height: 30%;
+}
+
+.title__third--popup {
+  margin: 1.414rem 0;
+  color: var(--text-whitebg);
+}
+
+.title__third--popup {
+  margin: 1.414rem 0;
+  color: var(--text-whitebg);
+}
+
+.popupp {
+  color: var(--text-whitebg);
 }
 
 //TABLETTE//

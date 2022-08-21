@@ -63,7 +63,6 @@ gsap.to(".music-container", { // Animate .text2
     start: "20px 80%", // 10% of .panel2 enters the bottom of the viewport
     // Whatever other ScrollTrigger vars you need here
     end: "bottom 20px",
-    markers: true,
     scrub: 1
   },
   x: 0,
