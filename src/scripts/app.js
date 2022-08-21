@@ -2,13 +2,13 @@
 
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger'; //importer le gsap 
-gsap.registerPlugin(ScrollTrigger); 
+gsap.registerPlugin(ScrollTrigger);
 
 let annee = new Date().getFullYear();
 let date = document.querySelector(".date");
 date.innerHTML = annee;
 
-window.addEventListener('mousemove', event =>{
+window.addEventListener('mousemove', event => {
   document.documentElement.style.setProperty('--x', event.clientX + 'px');
   document.documentElement.style.setProperty('--y', event.clientY + 'px');
 });
@@ -33,6 +33,7 @@ gsap.from(".explication1", {
     scrub: 0.5
   }
 });
+
 gsap.from(".explication2", {
   opacity: 0,
   duration: 1,
@@ -43,6 +44,7 @@ gsap.from(".explication2", {
     scrub: 0.5
   }
 });
+
 gsap.from(".explication3", {
   opacity: 0,
   duration: 1,
@@ -53,16 +55,21 @@ gsap.from(".explication3", {
     scrub: 0.5
   }
 });
-var tl2 = gsap__WEBPACK_IMPORTED_MODULE_0__["default"].timeline({
-  defaults: {
-    duration: 3
-  }
+gsap.to(".music-container", { // Animate .text2
+  // Whatever properties to animate here
+  scrollTrigger: {
+    trigger: ".music-container", // make .panel2 the trigger
+    start: "20px 80%", // 10% of .panel2 enters the bottom of the viewport
+    // Whatever other ScrollTrigger vars you need here
+    end: "bottom 20px",
+    markers: true,
+    scrub: 1
+  },
+  x: 40,
+  duration: 3
 });
-tl2.from('.music-container', {
-  x: -1000,
-  duration: 10,
-  stagger: 0.5,
-})
+
+
 
 gsap.from(".imagephone", {
   scale: 1.1,
@@ -75,13 +82,13 @@ gsap.from(".imagephone", {
   }
 });
 gsap.from(".temoignages", {
-  scale: 1.1,
+  scale: 0.5,
   duration: 3,
   scrollTrigger: {
     trigger: ".temoignages",
     start: "center 90%",
     end: "center 10%",
-    scrub: 0.5
+    scrub: 0.3
   }
 });
 gsap.from(".image3", {
@@ -104,3 +111,32 @@ gsap.from(".image4", {
     scrub: 0.5
   }
 });
+
+gsap.fromTo(".roundrectangle3",
+  { y: 90 },
+  {
+    y: 0,
+    transformOrigin: "50% 50%",
+    repeat: 0,
+    ease: "elastic.out(1, 0.3)",
+    duration: 4
+  });
+gsap.fromTo(".roundrectangle4",
+  { y: 90 },
+  {
+    y: 0,
+    transformOrigin: "50% 50%",
+    repeat: 0,
+    ease: "elastic.out(1, 0.3)",
+    duration: 4
+  });
+
+gsap.fromTo(".roundrectangle3",
+  { y: 90 },
+  {
+    y: 0,
+    transformOrigin: "50% 50%",
+    repeat: 0,
+    ease: "elastic.out(1, 0.3)",
+    duration: 4
+  });
