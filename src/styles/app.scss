@@ -532,7 +532,15 @@ audio {
   position: absolute;
   margin-left: 2ch;
 }
-
+.title--intro-ui {
+  color: var(--color-white);
+  font-family: "objektiv-mk1", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 2ch;
+}
 .title--second {
   font-weight: 400;
   font-style: normal;
@@ -545,7 +553,18 @@ audio {
   letter-spacing: 4px;
   max-width: 30ch;
 }
-
+.title--second-ui{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  font-family: "bebas neue";
+  color: var(--color-white);
+  margin-left: 1em;
+  margin-right: 1em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  max-width: 30ch;
+}
 .title--second-case {
   font-weight: 400;
   font-style: normal;
@@ -586,7 +605,20 @@ audio {
   font-weight: 500;
   font-family: "objektiv-mk3", sans-serif;
 }
-
+.title--troisieme-ui {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 44px;
+  color: var(--color-white);
+  margin-left: 23px;
+  margin-top: 87%;
+  letter-spacing: 4px;
+  max-width: 38ch;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "objektiv-mk3", sans-serif;
+}
 .title-head {
   padding-bottom: 86%;
 }
@@ -769,29 +801,30 @@ audio {
 
 .couleur__el {
   width: 80px;
+  margin-top: -70%;
+  padding-left: 1rem;
   height: 80px;
   border-radius: 50%;
-  border: 1px solid #0000002a;
+  border: 1px solid rgba(0, 0, 0, 0.1647058824);
 }
 
 .couleur__el--01 {
-  background-color: #000000;
+  background-color: #FDD602;
 }
 
 .couleur__el--02 {
-  background-color: #FF0505;
+  background-color: #FF9D29;
 }
-
 .couleur__el--03 {
-  background-color: #ff5f5f;
+  background-color: #CE00FF;
 }
 
 .couleur__el--04 {
-  background-color: #ff8787;
+  background-color: #FF5B94;
 }
 
 .couleur__el--05 {
-  background-color: #fff;
+  background-color: #FF0505;
 }
 
 /* UI COLOR END */
