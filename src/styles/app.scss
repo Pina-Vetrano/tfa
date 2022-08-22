@@ -28,12 +28,12 @@ body {
   box-sizing: border-box;
 }
 
-// CONTAINER START // 
+/* CONTAINER START */ 
 .container {
   overflow: hidden;
 }
 
-// Space START // 
+/* Space START */ 
 .space {
   margin-bottom: 12em;
   margin-top: 12em;
@@ -66,8 +66,8 @@ body {
   top: 27%;
 }
 
-// Space END //
-// Contenu START // 
+/* Space END */
+/* Contenu START */ 
 .contenu--review {
   margin-right: 21px;
   letter-spacing: 11px;
@@ -118,8 +118,8 @@ body {
   backdrop-filter: blur(22px);
   background-color: rgba(29, 29, 29, 0.1607843137);
 
-}  // Contenu END //
-// Article START //
+}
+/* Article START */
 
 .contents__el {
   opacity: 50%;
@@ -139,7 +139,6 @@ body {
   box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 40%);
 }
 
-/* 1er faux slider */
 [data-slide=title1-el1] .prototype__img--t1e1 {
   display: block;
 }
@@ -203,7 +202,6 @@ body {
   opacity: 100%;
 }
 
-/* 2Ã¨me faux slider */
 [data-slide=title2-el1] .prototype__img--t2e1 {
   display: block;
 }
@@ -331,7 +329,7 @@ body {
   opacity: 100%;
 }
 
-//Music Container START//
+/*Music Container START*/
 .music-container {
   display: flow-root;
   align-items: center;
@@ -369,7 +367,7 @@ body {
   background: none;
 }
 
-// Music container END // 
+/* Music container END */ 
 
 .section--explication3,
 .conclusion {
@@ -402,7 +400,7 @@ audio {
 
 }
 
-// MOTIF BACKGROUND MOBILE // 
+/* MOTIF BACKGROUND MOBILE */ 
 .rounddecor {
   padding-left: 15%;
 }
@@ -503,16 +501,16 @@ audio {
   background: url(../assets/images/waveround2.png);
 }
 
-// MOTIF FIN // 
+/* MOTIF FIN */ 
 
-// BOX BLUR // 
+/* BOX BLUR */ 
 .box {
   position: absolute;
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
 }
 
-//TITLE START//
+/*TITLE START*/
 .title--intro {
   color: var(--color-white);
   font-family: "objektiv-mk1", sans-serif;
@@ -609,10 +607,10 @@ audio {
   margin-top: 29%
 }
 
-//TITLE END//
+/*TITLE END*/
 
 
-//TEMOIGNAGE START//
+/*TEMOIGNAGE START*/
 .temoignages {
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
@@ -646,7 +644,7 @@ audio {
   border: 1px solid rgba(255, 255, 255, 0.18);
 
 }
-.temoignages {
+.temoignages-imgmobile {
   background-image: url(../assets/images/mobile_img.png);
   background-size: contain;
   opacity: 2;
@@ -683,7 +681,7 @@ audio {
   margin-left: 0rem;
 }
 
-// Temoignage END //
+/* Temoignage END */
 .intro {
   justify-content: space-between;
   flex-direction: row;
@@ -707,7 +705,7 @@ audio {
   margin-left: 1%;
 }
 
-//IMAGE START//
+/*IMAGE START*/
 .image {
   max-width: 93%;
 }
@@ -741,9 +739,9 @@ audio {
   padding-bottom: 10%;
 }
 
-//IMAGE END//
+/*IMAGE END*/
 
-// SECTION //
+/* SECTION */
 .explication {
   display: flex;
   flex-direction: column;
@@ -757,7 +755,7 @@ audio {
   align-items: center;
 }
 
-// UI COLOR START //
+/* UI COLOR START */
 .couleur {
   display: flex;
   align-content: space-between;
@@ -790,8 +788,8 @@ audio {
   background-color: #fff;
 }
 
-// UI COLOR END //
-// LINK START//
+/* UI COLOR END */
+/* LINK START*/
 a {
   text-decoration: none;
   color: var(--color-white);
@@ -803,16 +801,10 @@ a {
   list-style: none;
 }
 
-//
-//.link--video {
-// display: block;
-// margin-top: 2.827rem;
-// text-align: center;
-//}
-//
-// LINK END//
 
-// FOOTER START//
+/* LINK END*/
+
+/* FOOTER START*/
 
 .footer {
   margin-top: 15.981rem;
@@ -861,14 +853,14 @@ a {
   margin-left: 2px;
 }
 
-// FOOTER END//
+/* FOOTER END*/
 .intro p {
   margin-top: 44%;
   max-width: 50ch;
   font-size: 26px;
 }
 
-// BUTTON START //
+/* BUTTON START */
 .button-download {
   margin-top: 50px;
   display: flex;
@@ -965,9 +957,9 @@ a {
   margin-top: 0;
   margin-top: -1%;
 }
-// BUTTON END //
+/* BUTTON END */
 
-// DESCRIPTION START //
+/* DESCRIPTION START */
 
 .description p {
   font-weight: 600;
@@ -975,10 +967,10 @@ a {
   text-align: center;
 }
 
-// DESCRIPTION END //
+/* DESCRIPTION END */
 
 
-// SECTION END //
+/* SECTION END */
 
 .paragraph--uppercase {
   font-weight: 600;
@@ -1023,8 +1015,9 @@ a {
 
 .typo__element {
   max-width: 700px;
-  margin-left: auto;
+  margin-left: 4%;
   margin-right: auto;
+  line-height: 3.5;
 }
 
 .imagephone--case-study {
@@ -1034,10 +1027,17 @@ a {
 }
 
 .title--small {
-  font-size: 25px;
-  grid-column: 1/-2;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 44px;
+  color: var(--color-white);
+  margin-left: 23px;
+  margin-top: 87%;
+  letter-spacing: 4px;
+  max-width: 38ch;
+  font-weight: 500;
+  font-family: "objektiv-mk3", sans-serif;
 }
 
 .article__element {
@@ -1076,7 +1076,7 @@ a {
   padding-top: 22px
 }
 
-// CREDITS PART //
+/* CREDITS PART */
 .abovepop {
   position: fixed;
   top: 0;
@@ -1138,7 +1138,7 @@ a {
   color: var(--text-whitebg);
 }
 
-//TABLETTE//
+/*TABLETTE*/
 @media (min-width: 1000px) {
 
   .section--main,
@@ -1243,7 +1243,12 @@ a {
   }
 }
 
-//DESKTOP//
+.logoDWT {
+  width: 50px;
+  height: 29px;
+  margin-left: 6rem;
+}
+/*DESKTOP*/
 @media (min-width: 1200px) {
 
   .explication1 {
